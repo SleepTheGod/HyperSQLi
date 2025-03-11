@@ -17,7 +17,9 @@ pip install -r requirements.txt
 # Usage
 To run HyperSQLi, use this command with your dork and proxy files
 python3 main.py dorks.txt proxies.txt
-
+```bash
+python3 main.py <dork_file> <proxy_file>
+```
 # Files
 main.py - The main script for HyperSQLi
 dorks.txt - List of Google dorks to search for targets
